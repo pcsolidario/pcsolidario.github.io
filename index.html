@@ -9,20 +9,58 @@
     body {
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
+      margin: 0;
+    }
+    header {
+      background-color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 22px;
+      color: #e63946;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e63946;
+    }
+    main {
       text-align: center;
-      padding: 50px;
+      padding: 60px 20px;
     }
     h1 {
       color: #e63946;
     }
     p {
       font-size: 18px;
+      max-width: 600px;
+      margin: 15px auto;
     }
   </style>
 </head>
 <body>
-  <h1>Bienvenido a Línea Solidaria</h1>
-  <p>Este es un proyecto para llevar ordenadores funcionales y dignos a quienes más lo necesitan.</p>
-  <p>Muy pronto aquí tendrás toda la información, imágenes y formas de colaborar.</p>
+  <header>
+    <div class="logo">Línea Solidaria</div>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Quiénes somos</a>
+      <a href="#">Cómo ayudar</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Bienvenido a Línea Solidaria</h1>
+    <p>Este es un proyecto para llevar ordenadores funcionales y dignos a quienes más lo necesitan.</p>
+    <p>Muy pronto aquí tendrás toda la información, imágenes y formas de colaborar.</p>
+  </main>
 </body>
 </html>
