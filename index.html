@@ -1,237 +1,131 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PCSolidario</title>
-  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Línea Solidaria</title>
+  <link rel="icon" href="favicon.png" type="image/png">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #fff; color: #333; }
-    header, footer { background: #e63946; color: white; padding: 20px 0; text-align: center; }
-    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
-    section { padding: 60px 20px; max-width: 900px; margin: auto; }
-    h1, h2, h3 { color: #e63946; }
-    .button { background: #e63946; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 20px; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #fff7f0, #fefefe);
+      color: #333;
+    }
+    header {
+      background-color: #b71c1c;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      background-color: #d32f2f;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #b71c1c;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .important-link {
+      color: #6a1b9a;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #b71c1c;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>PCSolidario</h1>
+  <header>
+    <h1>Línea Solidaria</h1>
+  </header>
   <nav>
-    <a href="#quienes-somos">Quién soy</a>
-    <a href="#como-conseguir">Solicitar un ordenador solidario</a>
+    <a href="#quienes">Quiénes somos</a>
+    <a href="#como-conseguir">Cómo conseguir</a>
+    <a href="#solicitar">Solicitar</a>
     <a href="#como-ayudar">Cómo ayudar</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contacto">Contacto</a>
   </nav>
-</header>
 
-<section id="quienes-somos">
-  <h2>Quién soy</h2>
-  <p>
-    Me conocen como Fontxu, y creo que toda persona, incluso con muy poco, merece poder estudiar o jugar con dignidad.  
-    Por eso, en mi tiempo libre, monto ordenadores funcionales y atractivos a la vista, preparados con mimo, para quienes lo necesitan de verdad.
-  </p>
-  <p>
-    No me mueve el dinero, sino la satisfacción de sentir que lo que hago tiene sentido.  
-    Este es mi pequeño granito de arena, una forma de estar bien conmigo mismo haciendo algo útil por los demás.
-  </p>
-</section>
+  <section id="quienes">
+    <h2>¿Quién soy?</h2>
+    <p>Me conocen como <strong>Fontxu</strong>, y he decidido aportar mi pequeño granito de arena construyendo ordenadores para quienes más lo necesitan. Lo hago porque me hace sentir bien y porque creo que todo el mundo merece tener acceso a un equipo funcional, bonito y sin complejos, con el que poder estudiar, jugar o abrirse al mundo digital.</p>
+  </section>
 
-<section id="como-conseguir">
-  <h2>Solicitar un ordenador solidario</h2>
-  <p>Si crees que tú o alguien que conoces puede necesitar uno, completa este formulario:</p>
-  <a class="button" href="https://forms.gle/6mPLARMqBQmu6Dq7A" target="_blank">Solicitar ordenador</a>
-  <p style="margin-top: 20px;">Puedes ver los modelos disponibles (y su estado) directamente desde mi perfil de Wallapop:</p>
-  <a class="button" href="https://es.wallapop.com/user/alfonsoj-75489399" target="_blank">Ver en Wallapop</a>
-</section>
+  <section id="como-conseguir">
+    <h2>¿Cómo conseguir un ordenador solidario?</h2>
+    <p>Los ordenadores solidarios se entregan a través de Wallapop. No se venden como un producto cualquiera: se ofrecen a quienes realmente los necesitan, siempre al coste justo de las piezas, y sin obtener beneficio.</p>
+    <p>👉 <a class="important-link" href="https://es.wallapop.com/user/alfonsoj-75489399" target="_blank">Ver productos en Wallapop</a></p>
+  </section>
 
+  <section id="solicitar">
+    <h2>Solicitar un ordenador</h2>
+    <p>Este formulario está pensado para personas que realmente necesitan un ordenador funcional y digno, ya sea para estudiar, trabajar o reconectar con el mundo digital.</p>
+    <p><a class="important-link" href="https://forms.gle/6mPLARMqBQmu6Dq7A" target="_blank">Abrir formulario de solicitud</a></p>
+  </section>
 
-<section id="como-ayudar" style="padding: 60px 20px; background-color: #f9f9f9;">
-  <h2 style="color: #e63946;">¿Cómo puedes ayudar?</h2>
-
-  <p style="max-width: 700px; margin: 20px auto; font-size: 18px;">
-    Este proyecto no busca dinero. Lo que busca es sumar fuerzas, piezas, ideas… y humanidad.  
-    Lo llevo yo solo, en mi tiempo libre, y sin ganar ni un euro.  
-    Pero no estoy solo, porque cada persona que colabora, también forma parte de esto.
-  </p>
-
-  <h3 style="color: #e63946;">🖥️ Donar un ordenador o piezas</h3>
-  <p style="max-width: 700px; margin: 10px auto; font-size: 18px;">
-    Si tienes un ordenador que ya no usas pero sigue funcionando, o alguna pieza suelta que puede servir, escríbeme.  
-    Lo revisaré, mejoraré lo que pueda y lo prepararé con mimo para que tenga una nueva vida en manos de alguien que lo necesita.
-  </p>
-  <p style="max-width: 700px; margin: 10px auto; font-size: 18px;">
-    Esto es lo que <strong>sí</strong> suele ser útil:
-    <ul style="text-align: left; max-width: 700px; margin: 10px auto; font-size: 18px;">
-      <li>Procesadores desde Intel i3 2ª gen o AMD A8/A10 en adelante</li>
-      <li>RAM DDR3 o DDR4 (mínimo 4 GB)</li>
-      <li>Discos SSD o HDD de 250 GB o más</li>
-      <li>Gráficas desde GTX 750 / R7 250 en adelante</li>
-      <li>Fuentes con conector PCIe y que funcionen bien</li>
-      <li>Placas base compatibles y estables</li>
+  <section id="como-ayudar">
+    <h2>¿Cómo puedo ayudar?</h2>
+    <p>Puedes colaborar donando o vendiendo muy barato componentes que nos sean realmente útiles:</p>
+    <ul>
+      <li>Procesadores/placas AM4 o LGA1155+</li>
+      <li>RAM DDR3 o DDR4</li>
+      <li>Discos SSD funcionales</li>
+      <li>GPUs básicas para Fortnite (GTX 750, RX 550+)</li>
+      <li>Fuentes de alimentación fiables</li>
     </ul>
-  </p>
-  <p style="max-width: 700px; margin: 10px auto; font-size: 18px;">
-    Esto es lo que <strong>no</strong> puedo aprovechar, aunque agradezca la intención:
-    <ul style="text-align: left; max-width: 700px; margin: 10px auto; font-size: 18px;">
-      <li>Placas o CPUs antiguas (Pentium 4, Core2Duo, DDR2...)</li>
-      <li>Discos IDE o piezas rotas</li>
-      <li>Fuentes defectuosas o cajas muy deterioradas</li>
-    </ul>
-    Prefiero decirlo desde ya, para que nadie sienta que le estoy rechazando algo con desprecio.  
-    Todo el mundo aprecia lo que ha tenido, incluso si ya no lo usa.
-  </p>
+    <p>Además, si puedes ayudar resolviendo dudas informáticas a quien recibe un equipo, ¡también es muy valioso!</p>
+  </section>
 
-  <h3 style="color: #e63946;">💡 ¿Y si no puedes donar pero quieres colaborar?</h3>
-  <p style="max-width: 700px; margin: 10px auto; font-size: 18px;">
-    Hay personas que querrían ayudar, pero no pueden regalar.  
-    Si ese es tu caso, también puedes escribirme: <strong>a veces puedo comprar piezas concretas a precios muy ajustados</strong>,  
-    siempre que encajen con el proyecto y me permitan seguir ofreciendo ordenadores funcionales sin beneficio económico.
-  </p>
-  <p style="max-width: 700px; margin: 10px auto; font-size: 18px;">
-    No compro cualquier cosa, ni a cualquier precio,  
-    pero si tienes algo que crees que puede ayudar y estás dispuesto a venderlo por muy poco,  
-    puedes escribirme y lo valoro sin compromiso.
-  </p>
+  <section id="faq">
+    <h2>Preguntas frecuentes</h2>
+    <h3>¿Tienen garantía?</h3>
+    <p>No. Son equipos con piezas reutilizadas. Su duración depende del uso. Si necesitas un servidor 24/7, este proyecto no es para ti.</p>
+    <h3>¿Dais soporte o clases?</h3>
+    <p>No por ahora. Hay muchos tutoriales geniales en Internet que pueden ayudarte paso a paso.</p>
+    <h3>¿Puedo pedir uno para regalar?</h3>
+    <p>Sólo si la persona lo necesita. No para lucirte con regalos ajenos.</p>
+    <h3>¿Hay que pagar algo?</h3>
+    <p>Solo el coste de las piezas. No cobro montaje ni mano de obra.</p>
+    <h3>¿Recibiré seguro un equipo?</h3>
+    <p>No se puede prometer. Hay pocos equipos y mucha demanda. Se prioriza según necesidad.</p>
+  </section>
 
-  <h3 style="color: #e63946;">📢 Compartir también es ayudar</h3>
-  <p style="max-width: 700px; margin: 10px auto; font-size: 18px;">
-    Si no tienes piezas, ni medios, pero crees que este proyecto merece vivir… compártelo.  
-    A veces, el ordenador no llega por lo que tienes, sino por lo que haces circular.
-  </p>
-</section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Correo directo: <a href="mailto:alfosnojd@gmail.com">alfosnojd@gmail.com</a></p>
+  </section>
 
-
-<section id="pcs-entregados" style="padding: 60px 20px; background-color: #f2f2f2;">
-  <h2 style="color: #e63946;">Ordenadores entregados</h2>
-
-  <p style="max-width: 800px; margin: 0 auto 30px auto; font-size: 18px;">
-    Aquí iré compartiendo algunos de los PCs que ya han encontrado un nuevo hogar.  
-    No son solo máquinas: cada uno ha sido montado con cariño, cuidado y pensando en que quien lo reciba sienta orgullo, no pena.  
-    Un PC puede ser poco para algunos… pero puede ser <strong>una puerta abierta al estudio, al juego o a los sueños</strong> para otros.
-  </p>
-
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; max-width: 1000px; margin: auto;">
-    <!-- Ejemplo 1 -->
-    <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 10px #ccc;">
-      <img src="imagenes/pc1.jpg" alt="PC entregado" style="width: 100%; border-radius: 10px;">
-      <h3 style="color: #e63946;">PC #001</h3>
-      <p>Ryzen 5 + RX 550. Entregado en Palma a un chaval de 12 años para estudiar y jugar a Fortnite.</p>
-    </div>
-
-    <!-- Ejemplo 2 -->
-    <div style="background: white; padding: 20px; border-radius: 10px; width: 280px; box-shadow: 0 0 10px #ccc;">
-      <img src="imagenes/pc2.jpg" alt="PC entregado" style="width: 100%; border-radius: 10px;">
-      <h3 style="color: #e63946;">PC #002</h3>
-      <p>Equipo ITX impreso en 3D. Lo entregué en Andratx. Pequeño pero matón. Para clases online y diseño gráfico.</p>
-    </div>
-  </div>
-</section>
-
-
-<section id="contacto" style="padding: 60px 20px;">
-  <h2 style="color: #e63946;">Contacto</h2>
-  <p style="max-width: 800px; margin: auto; font-size: 18px;">
-    Si tienes alguna duda, idea o simplemente quieres escribirme, puedes hacerlo directamente al correo:
-  </p>
-  <p style="text-align: center; font-size: 20px; margin-top: 20px;">
-    <a href="mailto:alfosnojd@gmail.com" style="color: #e63946; font-weight: bold;">
-      alfosnojd@gmail.com
-    </a>
-  </p>
-  <p style="max-width: 800px; margin: 20px auto 0 auto; font-size: 14px; text-align: center; color: #777;">
-    (Revisa tu bandeja de spam si no ves respuesta en un par de días)
-  </p>
-</section>
-
-
-<section id="faq" style="padding: 60px 20px; background-color: #f9f9f9;">
-  <h2 style="color: #e63946;">Preguntas frecuentes</h2>
-
-  <div style="max-width: 800px; margin: auto; font-size: 18px;">
-
-    <h3 style="color: #333;">¿Los ordenadores tienen garantía?</h3>
-    <p>No. Son equipos reacondicionados, con años de uso, y su duración dependerá del trato que se les dé. 
-    Si esperas dejarlo encendido 24/7 al 100%, este no es el equipo adecuado para ti. 
-    Yo los entrego funcionando y probados, pero no puedo ofrecer soporte técnico ni garantía.</p>
-
-    <h3 style="color: #333;">¿Puedo pedir ayuda para aprender a usarlos?</h3>
-    <p>Ojalá pudiera, pero no tengo tiempo ni medios para enseñar. Afortunadamente, hay montones de tutoriales 
-    en internet que explican todo paso a paso, incluso para principiantes. Si alguien se ofrece a ayudar 
-    con dudas informáticas, lo incluiré con gusto en la sección "Cómo ayudar".</p>
-
-    <h3 style="color: #333;">¿Puedo pedir más de un ordenador?</h3>
-    <p>En principio no. Quiero llegar al mayor número de personas posible. Si tienes una necesidad especial, 
-    puedes explicarla en el formulario.</p>
-
-    <h3 style="color: #333;">¿Puedo pedir desde fuera de Mallorca?</h3>
-    <p>Sí, pero solo si es a través de Wallapop envíos. Los gastos de envío no los cubro, salvo casos muy especiales.</p>
-
-  </div>
-
-    <h3 style="color: #333;">¿Puedo elegir el modelo de ordenador?</h3>
-    <p>No siempre. Los equipos se montan según las piezas disponibles. Todos están preparados para funcionar bien y poder estudiar o jugar de forma básica, pero no puedo garantizar un modelo específico.</p>
-
-    <h3 style="color: #333;">¿Puedo reservar uno para más adelante?</h3>
-    <p>No, los equipos se entregan por orden de disponibilidad y necesidad. Si no lo necesitas ahora, mejor esperar a cuando realmente te haga falta.</p>
-
-    <h3 style="color: #333;">¿Incluye sistema operativo instalado?</h3>
-    <p>Sí, todos los equipos vienen listos para usar, con un sistema operativo ligero y funcional. No se entrega con licencia oficial de Windows salvo que se especifique.</p>
-
-    <h3 style="color: #333;">¿Puedo pedirlo para regalárselo a otra persona?</h3>
-    <p>Sí, pero necesito saber quién lo va a usar y para qué, como si lo pidieras tú. Esto me ayuda a saber si el equipo se ajusta a su necesidad real.</p>
-
-    <h3 style="color: #333;">¿Puedo contribuir con piezas sueltas que me sobran?</h3>
-    <p>Sí, pero solo si son piezas que realmente puedo usar. Consulta la sección “Cómo ayudar” para ver qué tipos de componentes estoy buscando.</p>
-
-    <h3 style="color: #333;">¿Puedo recogerlo en persona?</h3>
-    <p>Sí, si estás en Mallorca. Nos pondremos de acuerdo para el lugar y momento. Envíos solo por Wallapop.</p>
-
-    <h3 style="color: #333;">¿Puedo pedir ayuda si algo no funciona bien?</h3>
-    <p>Si algo falla los primeros días, puedes avisarme. Pero recuerda: no puedo ofrecer soporte técnico ni mantenimiento a largo plazo. Esto no es una tienda.</p>
-
-    <h3 style="color: #333;">¿Cómo decides a quién se lo das?</h3>
-    <p>Me baso en la información del formulario. Intento priorizar casos reales de necesidad. Confío en la buena fe de quien lo pide.</p>
-</section>
-
+  <footer>
+    <p>Con cariño, desde Mallorca ❤️</p>
+  </footer>
 </body>
-</html
-<section id="faq" style="padding: 40px; background-color: #f2f2f2;">
-    <div style="max-width: 800px; margin: auto;">
-        <h2 style="color: #2c3e50;">Preguntas frecuentes</h2>
-
-        <h3>¿Los ordenadores tienen garantía?</h3>
-        <p>No. Son equipos con años de uso, reacondicionados con mimo, pero no puedo ofrecer garantía. Funcionan correctamente al salir, pero su duración depende del uso. Si piensas tenerlo encendido a tope 24/7, este no es tu equipo.</p>
-
-        <h3>¿Incluye sistema operativo?</h3>
-        <p>Sí, siempre se entregan listos para usar, con un sistema ligero y funcional. No incluyen licencia oficial de Windows salvo que se indique.</p>
-
-        <h3>¿Dais soporte o clases de informática?</h3>
-        <p>No puedo. Me encantaría, pero no tengo tiempo ni infraestructura. Lo bueno es que en internet hay tutoriales increíbles para todo. ¡Solo hace falta un poco de curiosidad!</p>
-
-        <h3>¿Cómo decides a quién se lo das?</h3>
-        <p>Leo con atención cada solicitud. Me guío por la sinceridad, la necesidad y la intuición. No hay algoritmo, solo ganas de ayudar con justicia y corazón.</p>
-
-        <h3>¿Puedo pedir un ordenador para regalárselo a otra persona?</h3>
-        <p>En principio no. Este proyecto no está pensado para que nadie quede bien a costa de la ayuda de otro. Si alguien cercano lo necesita de verdad, puede rellenar el formulario por su cuenta o con tu ayuda. Quiero asegurarme de que cada equipo llega a quien realmente lo necesita, no como regalo, sino como herramienta para estudiar, trabajar o jugar con dignidad.</p>
-
-        <h3>¿Puedo recogerlo en persona?</h3>
-        <p>Sí, si vives en Mallorca. Nos pondremos de acuerdo. Si no, tiene que ser por Wallapop envíos, y el coste del envío no está incluido salvo casos muy concretos.</p>
-
-        <h3>¿Puedo pedir ayuda si algo va mal?</h3>
-        <p>Si falla algo los primeros días, sí. Pero no puedo hacerme cargo de mantenimientos, reparaciones o asistencia técnica continua. Esto es un proyecto personal, no una tienda.</p>
-
-        <h3>¿Puedo elegir el modelo de ordenador?</h3>
-        <p>No exactamente. Los PCs se montan con lo que haya disponible, intentando que sean bonitos, únicos y funcionales. No se garantiza un modelo concreto, pero sí un buen resultado.</p>
-
-        <h3>¿Puedo reservar uno para más adelante?</h3>
-        <p>Mejor no. Si ahora no lo necesitas, deja el turno a otra persona. Los ordenadores se entregan por orden y prioridad de necesidad.</p>
-
-        <h3>¿Puedo donar piezas que tengo por casa?</h3>
-        <p>Solo si son cosas útiles para este proyecto. Revisa la sección "Cómo ayudar", donde indico qué piezas encajan y por qué. No todo sirve, y prefiero evitar decir que no a algo que se ofrece con buena intención.</p>
-
-        <h3>¿Y si prefiero vender en lugar de donar?</h3>
-        <p>Si el precio es muy bueno y la pieza encaja, puedo comprarla. Pero no compro todo lo que me ofrezcan. Selecciono por calidad/precio y utilidad real en el proyecto.</p>
-    </div>
-</section>
->
+</html>
