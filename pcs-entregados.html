@@ -2,97 +2,90 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ordenadores entregados - PC Solidario</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .pc-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-    .pc-card {
-      text-align: center;
-    }
-    .pc-card img {
-      width: 100%;
-      max-width: 280px;
-      border-radius: 8px;
-      box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      transition: transform 0.2s;
-    }
-    .pc-card img:hover {
-      transform: scale(1.05);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Ordenadores entregados</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery-container {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+        .gallery-item {
+            display: inline-block;
+            margin: 20px;
+            vertical-align: top;
+            width: 300px;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery-item h3 {
+            margin-bottom: 5px;
+        }
+        .gallery-item p {
+            font-size: 0.95em;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>PC Solidario</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="quienes-somos.html">Quién soy</a>
-      <a href="que-es-pcsolidario.html">¿Qué es un PC Solidario?</a>
-      <a href="como-conseguir.html">Cómo conseguir</a>
-      <a href="como-ayudar.html">Cómo ayudar</a>
-      <a href="pcs-entregados.html">Ordenadores entregados</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
-  </header>
+    <div class="gallery-container">
+        <h2 style="color: crimson;">Ordenadores entregados</h2>
+        <p>Aquí compartimos algunos ejemplos de PCs Solidarios que ya han encontrado un nuevo hogar. No son simples máquinas: cada uno ha sido montado con mimo y buen gusto, para que quien lo reciba se sienta orgulloso de tener algo bonito, útil y hecho con alma. Porque un PC puede ser la chispa que enciende algo grande.</p>
 
-  <main>
-    <section>
-      <h2>Ordenadores entregados</h2>
-      <p>Aquí compartimos algunos ejemplos de PCs Solidarios que ya han encontrado un nuevo hogar. No son simples máquinas: cada uno ha sido montado con mimo y buen gusto, para que quien lo reciba se sienta orgulloso de tener algo bonito, útil y hecho con alma. Porque un PC puede ser la chispa que enciende algo grande.</p>
-
-      <div class="pc-grid">
-        <div class="pc-card">
-          <a href="IMG_20250405_110423.jpg" target="_blank"><img src="IMG_20250405_110423.jpg" alt="PC entregado 001"></a>
-          <h3>PC #001</h3>
-          <p>Entregado a un niño de 12 años para estudiar y jugar a Fortnite. Lo recibió con una sonrisa enorme y dijo que por fin tenía un PC como los demás.</p>
+        <div class="gallery-item">
+            <a href="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc001.jpg" target="_blank">
+                <img src="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc001.jpg" alt="PC entregado 001">
+            </a>
+            <h3>PC #001</h3>
+            <p>Entregado a un niño de 12 años para estudiar y jugar a Fortnite. Lo recibió con una sonrisa enorme y dijo que por fin tenía un PC como los demás.</p>
         </div>
 
-        <div class="pc-card">
-          <a href="IMG_20250510_113813.jpg" target="_blank"><img src="IMG_20250510_113813.jpg" alt="PC entregado 002"></a>
-          <h3>PC #002</h3>
-          <p>Diseño compacto e impreso en 3D. Fue para una estudiante de bachillerato que necesitaba algo práctico para llevar a clase y seguir aprendiendo desde casa.</p>
+        <div class="gallery-item">
+            <a href="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc002.jpg" target="_blank">
+                <img src="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc002.jpg" alt="PC entregado 002">
+            </a>
+            <h3>PC #002</h3>
+            <p>Diseño compacto e impreso en 3D. Fue para una estudiante de bachillerato que necesitaba algo práctico para llevar a clase y seguir aprendiendo desde casa.</p>
         </div>
 
-        <div class="pc-card">
-          <a href="IMG_20250603_195530.jpg" target="_blank"><img src="IMG_20250603_195530.jpg" alt="PC entregado 003"></a>
-          <h3>PC #003</h3>
-          <p>Con un estilo original y toques retrofuturistas. Lo pidió un joven curioso por la tecnología, que ahora lo usa para estudiar y aprender cosas nuevas todos los días.</p>
+        <div class="gallery-item">
+            <a href="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc003.jpg" target="_blank">
+                <img src="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc003.jpg" alt="PC entregado 003">
+            </a>
+            <h3>PC #003</h3>
+            <p>Con un estilo original y toques retrofuturistas. Lo pidió un joven curioso por la tecnología, que ahora lo usa para estudiar y aprender cosas nuevas todos los días.</p>
         </div>
 
-        <div class="pc-card">
-          <a href="IMG_20250223_100814.jpg" target="_blank"><img src="IMG_20250223_100814.jpg" alt="PC entregado 004"></a>
-          <h3>PC #004</h3>
-          <p>Una caja blanca y limpia, con detalles cuidados. Entregado a una familia con pocos recursos. El hijo mayor lo usa para sus tareas del cole y sus primeros juegos online.</p>
+        <div class="gallery-item">
+            <a href="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc004.jpg" target="_blank">
+                <img src="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc004.jpg" alt="PC entregado 004">
+            </a>
+            <h3>PC #004</h3>
+            <p>Una caja blanca y limpia, con detalles cuidados. Entregado a una familia con pocos recursos. El hijo mayor lo usa para sus tareas del cole y sus primeros juegos online.</p>
         </div>
 
-        <div class="pc-card">
-          <a href="IMG_20241107_185544.jpg" target="_blank"><img src="IMG_20241107_185544.jpg" alt="PC entregado 005"></a>
-          <h3>PC #005</h3>
-          <p>Un equipo con luces y mucha personalidad. Le llegó a una chica creativa con ganas de editar vídeos, estudiar online y compartir sus ideas con el mundo.</p>
+        <div class="gallery-item">
+            <a href="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc005.jpg" target="_blank">
+                <img src="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc005.jpg" alt="PC entregado 005">
+            </a>
+            <h3>PC #005</h3>
+            <p>Un equipo con luces y mucha personalidad. Le llegó a una chica creativa con ganas de editar vídeos, estudiar online y compartir sus ideas con el mundo.</p>
         </div>
 
-        <div class="pc-card">
-          <a href="IMG_20241117_105132.jpg" target="_blank"><img src="IMG_20241117_105132.jpg" alt="PC entregado 006"></a>
-          <h3>PC #006</h3>
-          <p>Un equipo restaurado con alma. Se lo dimos a un adulto que quería mejorar sus competencias digitales. Dice que le ha devuelto las ganas de aprender.</p>
+        <div class="gallery-item">
+            <a href="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc006.jpg" target="_blank">
+                <img src="https://raw.githubusercontent.com/pcsolidario/pcsolidario.github.io/main/pc006.jpg" alt="PC entregado 006">
+            </a>
+            <h3>PC #006</h3>
+            <p>Un equipo restaurado con alma. Se lo dimos a un adulto que quería mejorar sus competencias digitales. Dice que le ha devuelto las ganas de aprender.</p>
         </div>
-      </div>
 
-      <p style="text-align:center; margin-top: 2rem;"><strong>¿Y tú? ¿Te imaginas tener el tuyo?</strong><br>Si lo necesitas de verdad, este proyecto es para ti.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Con cariño, desde Mallorca ❤️</p>
-  </footer>
+        <p><strong>¿Y tú? ¿Te imaginas tener el tuyo?</strong><br>
+        Si lo necesitas de verdad, este proyecto es para ti.</p>
+    </div>
 </body>
 </html>
