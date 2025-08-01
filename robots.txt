@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pcsolidario.github.io/sitemap.xml
